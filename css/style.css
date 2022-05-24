@@ -3,6 +3,9 @@
 :root {
     --color-red: #F03C42;
     --color-white: #FFFFFF;
+    --color-dark-blue: #222374;
+    --color-gray: #CCCCCC;
+;
 }
 
 * {
@@ -50,4 +53,29 @@ header nav {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+#meet-our-space {
+    background-color: var(--color-dark-blue);
+    padding: 20px 0;
+}
+
+#meet-our-space h2 {
+    width: 357px;
+    height: 44px;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.space-card {
+    background: var(--color-gray);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.space-card h3 {
+    margin-bottom: 20px;
 }
